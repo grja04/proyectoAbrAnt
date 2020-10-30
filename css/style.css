@@ -47,6 +47,51 @@ header nav #links a {
 main {
   height: 60%;
 }
+/* complemento de body*/
+body{
+  background-color: hsl(217, 28%, 15%);
+  Family: Open Sans;
+  /*Weights: 400, 700,*/
+}
+.contenedor{
+  background-color:hsl(217, 28%, 15%);
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.started{
+  color: white;
+
+}
+.access{
+
+}
+.secutiry{
+
+}
+.real-time{
+
+}
+.store{
+  
+}
+ 
+.productive{
+  display: flex;
+  
+
+}
+.sarish{
+  color: white;
+}
+.bruce{
+ color: white;
+}
+.iva{
+ color: white;
+}
+/*fin de boddy*/
 
 footer nav {
   background-color: black;
