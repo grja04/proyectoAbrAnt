@@ -62,8 +62,6 @@ body{
   width: 50%;
   display: flex;
   justify-content: center;
- 
-  
 }
 
 }
@@ -127,13 +125,15 @@ body{
  color: white;
  
 }
-.acceshoy{
+.getstarted{
   background: linear-gradient(to right,#33FFE5,#33CFFF);
-  border-radius: 15%;
+  height: 10%;
+  width: 10%;
+  border-radius: 10px;
   border: none,
   padding: 3px 10px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-style: italic;
 }
 /*fin de boddy*/
