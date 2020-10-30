@@ -51,12 +51,37 @@ main {
 body{
   background-color: hsl(217, 28%, 15%);
   Family: Open Sans;
+  color: white;
   /*Weights: 400, 700,*/
 }
 .contenedor{
-  background-color:hsl(217, 28%, 15%);
   display: flex;
-  flex-direction: column;
+  height: 50%;
+  width: 50%;
+  align-content: center;
+  margin-left: 20%;
+}
+.access{
+ display: flex;
+ height: 25%;
+ width: 25%;
+}
+.secutiry{
+  display: flex;
+  height: 25%;
+  width: 25%;
+}
+.real-time{
+  
+  display: flex;
+  height: 25%;
+  width: 25%;
+}
+.store{
+  
+  display: flex;
+  height: 25%;
+  width: 25%;
 }
 .started{
   color: white;
@@ -69,18 +94,6 @@ body{
   width: 5%;
   border-radius: 2px;
   color: white;
-}
-.access{
-
-}
-.secutiry{
-
-}
-.real-time{
-
-}
-.store{
-  
 }
  
 .productive{
