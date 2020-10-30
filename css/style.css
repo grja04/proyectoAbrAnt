@@ -52,19 +52,20 @@ body{
   background-color: hsl(217, 28%, 15%);
   Family: Open Sans;
   color: white;
-  /*Weights: 400, 700,*/
+ 
 }
 .contenedor{
-  display: flex;
-  height: 50%;
-  width: 50%;
   align-content: center;
   margin-left: 20%;
+}
+.beneficios{
+  display: flex;
 }
 .access{
  display: flex;
  height: 25%;
  width: 25%;
+ border: 2px solid white;
 }
 .secutiry{
   display: flex;
@@ -101,7 +102,10 @@ body{
   
 
 }
-.sarish{
+.comentarios{
+  display: flex;
+}
+.satish{
   color: white;
 }
 .bruce{
@@ -238,3 +242,5 @@ footer nav #social div img {
   height: 40px;
 }
 /*# sourceMappingURL=style.css.map */
+
+
