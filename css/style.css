@@ -4,8 +4,7 @@
 }
 
 header nav {
-  width: 375px;
-  height: none;
+  
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,8 +17,6 @@ header nav {
 }
 
 header nav #logo {
-  width: 375px;
-  height: none;
   background-color: black;
   width: 50%;
 }
@@ -53,7 +50,7 @@ main {
 }
 /* complemento de body*/
 body{
-  width: 375px;
+  /*width: 375px;*/
   height: none;
   background-color: hsl(217, 28%, 15%);
   Family: Open Sans;
