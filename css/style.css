@@ -56,86 +56,93 @@ body{
   Family: Open Sans;
   color: white;
   align-items: center;
-}
-.contenedor{
-  height: 75%;
+
+ .contenedor{
+  height: 50%;
   width: 50%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-}
+  
 
-}
-.beneficios{
+     .started{
+    align-items: center;
+    display: flex;
+     align-items: center;
+      
+    
+     }
+  
+  .beneficios{
+        display: flex;
+       justify-content: center;
+     
+      .access{
+        order: 2; 
+        border: 2px solid white;
+        display: flex;
+        height: 25%;
+        width: 25%;
+       }
+      .secutiry{
+        order: 2;
+        display: flex;
+       height: 25%;
+       width: 25%;
+      }
+      .real-time{
+  
+        height: 25%;
+        width: 25%;
+      }
+    
+       .store{
+  
   display: flex;
-  justify-content: center;
-}
-.access{
- border: 2px solid white;
- display: flex;
- height: 25%;
- width: 25%;
+  height: 25%;
+  width: 25%;
+        }
+        }
  
-}
-.secutiry{
-  display: flex;
-  height: 25%;
-  width: 25%;
-}
-.real-time{
-  
-  display: flex;
-  height: 25%;
-  width: 25%;
-}
-.store{
-  
-  display: flex;
-  height: 25%;
-  width: 25%;
-}
-.started{
-  color: white;
-  justify-content: center;
-
-}
-.getstarted{
-  background-color: lightgreen;
-  height: 20%;
-  width: 5%;
-  border-radius: 2px;
-  color: white;
-}
- 
-.productive{
+  .productive{
   display: flex;
   
 
-}
-.comentarios{
-  display: flex;
-}
-.satish{
+       }
+  .comentarios{
+       display: flex;
+       flex-direction: row;
+      .satish{
   border: 10px solid white;
   background: blue;
-}
-.bruce{
+       }
+      .bruce{
  color: white;
-}
-.iva{
- color: white;
+       }
+      .iva{
+   color: white;
  
-}
-.getstarted{
+       }
+      }
+
+  }
+ .accesohoy{
+
+   }
+ .getstarted{
   background: linear-gradient(to right,#33FFE5,#33CFFF);
   height: 10%;
   width: 10%;
   border-radius: 10px;
   border: none,
-  padding: 3px 10px;
+  padding: 3px ;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-style: italic;
+
+  }
 }
+
 /*fin de boddy*/
 
 footer nav {
@@ -274,3 +281,8 @@ footer nav #social div img {
 
   
   }
+  @media (max-width:700px){
+    footer nav{
+        flex-direction:column;
+    }
+}
