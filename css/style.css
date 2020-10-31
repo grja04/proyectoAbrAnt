@@ -65,13 +65,11 @@ body{
   justify-content: center;
   
 
-     .started{
+  .started{
     align-items: center;
     display: flex;
-     align-items: center;
-      
-    
-     }
+    align-items: center;
+   }
   
   .beneficios{
         display: flex;
@@ -129,6 +127,7 @@ body{
  .accesohoy{
 
    }
+  }
  .getstarted{
   background: linear-gradient(to right,#33FFE5,#33CFFF);
   height: 10%;
@@ -141,7 +140,7 @@ body{
   font-style: italic;
 
   }
-}
+
 
 /*fin de boddy*/
 
