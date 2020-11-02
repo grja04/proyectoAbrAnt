@@ -62,7 +62,9 @@ body{
   font-family: open;
   color: white;
 }
-  
+p{
+  line-height: 2;
+}
 /* contenedor*/
 #contenedor-padre{
   
@@ -163,7 +165,7 @@ body{
   }
   #stay-productive{
     display: inline-block; 
-    border: 2px solid hsl(217, 28%, 15%);
+    border: none;
     text-align: center;
     margin-top: 15%;
 
@@ -191,17 +193,20 @@ body{
       display:inline-block;
       height: 50%;
       width: 50%;
-      border: 10px solid hsl(219, 30%, 18%);
+      border: 1%;
+      border-radius: 5%;
       background: hsl(219, 30%, 18%);
-      border-radius: 2%;
       position: relative;
       margin-left: 20%;
       margin-top: 5%;
+      font-size: 50%;
+      text-align: center;
+  
 
    }
    .perfil-1, .perfil-2, .perfil-3{
     width:25%;
-    height:25%px;
+    height:25%;
     border-radius: 50%;
    }
 
@@ -215,29 +220,36 @@ body{
 
   
  #promocion{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    flex-wrap: wrap;
-    border: 5% solid white; 
-    border-radius: 5%;
-    position: relative;
 
-    
+
+    display:inline-block;
+    height: 70%;
+    width: 80%;
+    border: 1%;
+    border-radius: 5%;
+    background: hsl(219, 30%, 18%);
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 50%;
+    text-align: center;
+
   }
 
-   }
   
  .getstarted{
-  background: linear-gradient(to right,#33FFE5,#33CFFF);
-  height: 10%;
-  width: 10%;
-  border-radius: 5%;
-  border: none,
-  padding: 3px ;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2hv;
-  font-style: italic;
+    
+   display: inline-block;
+   font-weight: 100%;
+   width: 55%;
+   size: 25;
+   background: linear-gradient(to right,#33FFE5,#33CFFF);
+   border-radius: 10px;
+   border: none;
+   margin: 3%;
+
+ 
 
   }
 
