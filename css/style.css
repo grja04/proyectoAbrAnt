@@ -4,6 +4,8 @@
   
   
 }
+/*modifaciones titulo*/
+
 
 header nav {
   
@@ -14,21 +16,28 @@ header nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: black;
+  background-color: hsl(218, 28%, 13%);
   height: 20%;
 }
 
 header nav #logo {
-  background-color: black;
+  background-color: hsl(218, 28%, 13%);black;
   width: 50%;
+  
 }
 
 header nav #logo img {
   text-align: center;
+  /*antonio*/
+  height: 50%;
+  width: 50%;
+  margin-top: 15%;
+  margin-left: 15%;
+  
 }
 
 header nav #links {
-  width: 50%;
+  width: 80%; /*antonio valor 50%*/
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,7 +53,13 @@ header nav #links {
 header nav #links a {
   text-decoration: none;
   color: white;
-  margin: 0 1.5%;
+
+  
+  /*antonio*/
+  font-size: 75%;
+  margin-bottom: 5%;
+  margin-right: 7.5%;
+  
 }
 
 main {
@@ -55,7 +70,7 @@ main {
 body{
 
   min-width: 375px;
-  max-width: ;
+  max-width: 1439;
   min-height: 750;
   max-width: none;
   background-color: hsl(217, 28%, 15%);
@@ -63,7 +78,7 @@ body{
   color: white;
 }
 p{
-  line-height: 2;
+  line-height: 1.5;
 }
 /* contenedor*/
 #contenedor-padre{
@@ -93,6 +108,7 @@ p{
         width: 80%;
         align-content: center;
         text-align: center;
+        font-size: 75%;
         border: 5%;
         background-image: url(../images/bg-curvy-mobile.svg);
         width: 100%;
@@ -164,13 +180,22 @@ p{
 
   }
   #stay-productive{
+    height: 75%;
+    width: 80%;
     display: inline-block; 
     border: none;
-    text-align: center;
+    text-align: left;
     margin-top: 15%;
-
+    margin-left: 5%;
+    margin-bottom: 25%;
+  
   }
    
+  .fylo{
+    text-decoration: underline;
+    color: #33FFE5;
+    
+  }
   
   /* fin div productive*/
   /* inicio div comentarios*/
@@ -187,9 +212,11 @@ p{
   .comentario{
     display:flex;
     position: relative;
-    height: 7.5%;
-    width: 7.5%;
-    margin-left: 20%;
+    height: 5%;
+    width: 5%;
+    margin-left: 12.5%;
+    margin-bottom: -5%;
+    
     
 
   }
@@ -197,6 +224,7 @@ p{
   #perfil-1, #perfil-2, #perfil-3{
     
       display:inline-block;
+      justify-content: flex-end;
       height: 50%;
       width: 75%;
       border: 1%;
@@ -206,14 +234,23 @@ p{
       margin-top: 5%;
       margin-bottom: 10%;
       font-size: 50%;
-      text-align: center;
+      text-align: left;
   
 
    }
    .perfil-1, .perfil-2, .perfil-3{
-    width:25%;
-    height:25%;
-    border-radius: 50%;
+     display: inline-block;
+     align-self: ;
+     width: 7.5%;
+     height: 7.5%;
+     border-radius: 50%;
+
+   }
+
+   .comentario-perfil-1,.comentario-perfil-2, .comentario-perfil-3{
+     display: inline-block;
+     
+     
    }
 
        
@@ -248,31 +285,59 @@ p{
     
    display: inline-block;
    height: 25%;
-   width: 55%;
+   width: 60%;
    background: linear-gradient(to right,#33FFE5,#33CFFF);
+   color: white;
    size: 20%;
    border-radius: 10px;
    border: none;
    margin: 2.5%;
    font-size: 125%;
+   text-decoration: none;
   
   }
  
   input{
+    height: 15%;
+    width: 60%;
     border-radius: 10px;
     text-align: center;
   }
 
 /*fin de boddy*/
 
-.logo2{
-  margin-top: 75%;
-}
+ nav {
+   display: flex;
+   flex-direction: column;
+ 
+ }
 
-/*traslopar la imagen*/
+ .logo2{
+   margin-top: 40%;
+  margin-right: 20%;
+   margin-bottom: 20%;
+ }
+ #adress{
+   display: flex;
+   width: 80%;
+ }
+ 
+ #contact {
+   margin-left: 15%;
+ 
+ }
+ #menu1, #menu2, {
+  margin-left: 500%
+ }
+ #social{
+   margin-left: 42.5%;
+   margin-bottom: 10%;
+
+ }
+/*traslapar la imagen*/
 footer nav {
-  
-  background-color: black;
+
+  background-color:hsl(216, 53%, 9%);
   height: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -283,7 +348,7 @@ footer nav {
 }
 
 footer nav #address {
-  background-color: black;
+  background-color: hsl(216, 53%, 9%);
   width: 35%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -294,6 +359,8 @@ footer nav #address {
           flex-direction: column;
   margin: 5px;
   padding: 5px;
+  /*modificacion*/
+  width: 80%;
 }
 
 footer nav #address div#logo2 {
@@ -301,7 +368,7 @@ footer nav #address div#logo2 {
 }
 
 footer nav #address div#address2 {
-  background-color: black;
+  background-color: hsl(216, 53%, 9%);
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,14 +378,18 @@ footer nav #address div#address2 {
       -ms-flex-direction: row;
           flex-direction: row;
   color: white;
+  /*antonio*/
+  margin-left: 15%;
+  text-align: left;
 }
 
 footer nav #address div#address2 img {
   height: 25px;
+  
 }
 
 footer nav #contact {
-  background-color: black;
+  background-color: hsl(216, 53%, 9%);
   width: 17%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -337,8 +408,9 @@ footer nav #contact div {
 }
 
 footer nav #menu1 {
+  
   width: 17%;
-  background-color: black;
+  background-color: hsl(216, 53%, 9%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,7 +428,7 @@ footer nav #menu1 a {
 }
 
 footer nav #menu2 {
-  background-color: black;
+  background-color: hsl(216, 53%, 9%);
   width: 17%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -375,7 +447,7 @@ footer nav #menu2 a {
 }
 
 footer nav #social {
-  background-color: black;
+  background-color: hsl(216, 53%, 9%);
   width: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -393,22 +465,21 @@ footer nav #social {
 }
 
 footer nav #social div img {
+ 
+  /*adicion antonio*/
+  
+  /*adicion antonio*/
   width: 40px;
   height: 40px;
+  
 }
 /*# sourceMappingURL=style.css.map */
 
 
-@media screen and (min-width: 375px) {
+
     
 
-  
+/*para pc*/  
 @media screen and (min-width: 1440px) {
 
   
-  }
-  @media (max-width:700px){
-    footer nav{
-        flex-direction:column;
-    }
-}
