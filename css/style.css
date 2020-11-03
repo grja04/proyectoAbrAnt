@@ -1,3 +1,5 @@
+
+
 * {
   padding: 0;
   margin: 0;
@@ -70,9 +72,9 @@ main {
 body{
 
   min-width: 375px;
-  max-width: 1439;
-  min-height: 750;
-  max-width: none;
+  max-width: 1399px;
+  min-height: 750px;
+  max-height: none;
   background-color: hsl(217, 28%, 15%);
   font-family: 'Open Sans', sans-serif;
   color: white;
@@ -87,6 +89,7 @@ p{
   flex-flow: column;
   justify-content: space-evenly;
   margin-top: 10%;
+ 
 }
 
     /*inicio de div started*/
@@ -94,8 +97,8 @@ p{
    .illustration{
      
      align-self: center;
-     height: 80%;
-     width: 80%;
+     height: 60%;
+     width: 60%;
      margin top: 5%;
      
 
@@ -104,16 +107,22 @@ p{
 
         display: inline-block;
         align-self: center;
-        height: 80%;
-        width: 80%;
-        align-content: center;
-        text-align: center;
-        font-size: 75%;
-        border: 5%;
-        background-image: url(../images/bg-curvy-mobile.svg);
+        align-items: center;
+        height: 100%;
         width: 100%;
-        margin-top: 20%;
+        margin-top: 10%;
+        background-image: url(../images/bg-curvy-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: top 120%;
         
+   }
+   #todos-documentos{
+     height: 70%;
+     width: 75%;
+     margin-left: 15%;
+     text-align: center;
+     font-size: 75%;
+    
 
    }
         
@@ -214,7 +223,7 @@ p{
     position: relative;
     height: 5%;
     width: 5%;
-    margin-left: 12.5%;
+    margin-left: 7.5%;
     margin-bottom: -5%;
     
     
@@ -225,15 +234,16 @@ p{
     
       display:inline-block;
       justify-content: flex-end;
+      padding: 5%;
       height: 50%;
       width: 75%;
       border: 1%;
       border-radius: 5%;
       background: hsl(219, 30%, 18%);
-      margin-left: 12.5%;
+      margin-left: 6.5%;
       margin-top: 5%;
-      margin-bottom: 10%;
-      font-size: 50%;
+      margin-bottom: 5%;
+      font-size: 75%;
       text-align: left;
   
 
@@ -241,20 +251,17 @@ p{
    .perfil-1, .perfil-2, .perfil-3{
      display: inline-block;
      align-self: ;
-     width: 7.5%;
-     height: 7.5%;
+     width: 15%;
+     height: 15%;
      border-radius: 50%;
 
    }
 
-   .comentario-perfil-1,.comentario-perfil-2, .comentario-perfil-3{
+   #comentario-perfil-1,#comentario-perfil-2, #comentario-perfil-3{
      display: inline-block;
      
      
    }
-
-       
-    
 
 
   /* fin div comentarios*/
@@ -335,6 +342,14 @@ p{
 
  }
 /*traslapar la imagen*/
+/*acoplar*/
+#pie-pagina{
+  display: flex;
+  flex-flow: column;
+  margin-left: 10%;
+  align-items: left;
+}
+/**/
 footer nav {
 
   background-color:hsl(216, 53%, 9%);
@@ -345,6 +360,7 @@ footer nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+         
 }
 
 footer nav #address {
@@ -379,8 +395,7 @@ footer nav #address div#address2 {
           flex-direction: row;
   color: white;
   /*antonio*/
-  margin-left: 15%;
-  text-align: left;
+
 }
 
 footer nav #address div#address2 img {
@@ -466,15 +481,12 @@ footer nav #social {
 
 footer nav #social div img {
  
-  /*adicion antonio*/
-  
-  /*adicion antonio*/
+
   width: 40px;
   height: 40px;
   
 }
 /*# sourceMappingURL=style.css.map */
-
 
 
     
@@ -483,3 +495,20 @@ footer nav #social div img {
 @media screen and (min-width: 1440px) {
 
   
+body{
+
+    min-width: 1400px;
+    max-width: 25000px;
+    min-height: 750px;
+    max-height: none;
+
+
+}
+
+.illustration{
+     
+  align-self: center;
+  height: 5%;
+  width: 5%;
+}
+}
